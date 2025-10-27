@@ -1,0 +1,6 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+rootDirectory = "app_production"
+startCommand = "python app.py"
