@@ -1,0 +1,31 @@
+#!/bin/bash
+cd '/Users/gokul/Desktop/Devops 12+/untitled folder'
+
+# Create temporary app.py with port 8000
+python3 << 'PYAPPEOF'
+import sys
+import os
+
+# Read the original app.py
+with open('app.py', 'r') as f:
+    content = f.read()
+
+# Replace port
+content = content.replace('port=8000', 'port=8000')
+content = content.replace('port=5000', 'port=8000')
+
+# Write to temp file
+with open('app_temp_8000.py', 'w') as f:
+    f.write(content)
+PYAPPEOF
+
+# Kill existing processes on this port
+lsof -ti:8000 | xargs kill -9 2>/dev/null
+
+# Run the app on the specific port
+python3 app_temp_8000.py &
+
+sleep 3
+
+# Open in browser
+open http://localhost:8000

@@ -1,0 +1,43 @@
+Paste your job requirements here.
+
+You can include:
+- Job descriptions
+- Email from recruiters
+- List of required skills
+- Any text about the job requirements
+
+Example:
+Hello Gokul, 
+Hope you're doing well! 
+
+Role: DevOps Engineer
+Location: San Leandro, California / Charlotte NC 
+Type: W2 Contract 
+
+Job Description: 
+Automating Build, Release, Testing, Packaging, and deployment of applications. 
+Build DevSecOps toolchains/automation to achieve CICD, Blue-Green deployments, feature toggles. 
+Deep understanding of Gradle (and maven) build tools. 
+Implement & Design CICD pipelines using Github, SonarQube, Jenkins, uDeploy, Harness, Ansible & container solution such as Docker, Kubernetes. 
+Perform infra structure (Tomcat, PingFederate, Java) upgrades as applicable for legacy and micro services-based applications. 
+
+Required Qualifications: 
+5+ years of experience with DevSecOps practices in an enterprise environment including CI/CD pipelines and DevSecOps-focused collaboration. 
+4+ years of build-deploy automation and configuration experience within the Linux and Unix environment. 
+4+ years of Gradle or Maven experience. 
+4+ years of experience troubleshooting environments across the entire architecture (i.e., applications to infrastructure). 
+5+ years of source or version control tools experience. 
+4+ years of experience with Linux OS environment. 
+3+ years of Python experience. 
+3 + years of experience with server administration and job creation using Jenkins Continuous Integration server. 
+3+ years of JIRA experience. 
+3+ years of Splunk experience. 
+Knowledge and understanding of AppDynamics. 
+Knowledge and understanding of automation and engineering release development. 
+Experience in configuring, troubleshooting Node.js tech stack and Java Tech stack-based environments.
+
+
+Bharath Kumar
+Lead Talent Acquisition – Strategic Accounts
+SRI Tech Solutions
+(813) 642-6263
