@@ -7,8 +7,8 @@ import tempfile
 import shutil
 
 # Setup paths
-SCRIPT_DIR = '/Users/gokul/Desktop/Devops 12+/untitled folder'
-OUTPUT_DIR = '/Users/gokul/Desktop/Devops 12+/edited resumes'
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'edited resumes')
 sys.path.insert(0, SCRIPT_DIR)
 
 from resume_updater import ResumeUpdater
